@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="waiwai.Right" size="0.158000 0.194941"/>
+        <ImageTarget name="waiwai.Front" size="0.295000 0.194995"/>
+        <ImageTarget name="waiwai.Top" size="0.295000 0.157972"/>
+        <ImageTarget name="waiwai.Bottom" size="0.295000 0.157972"/>
+        <ImageTarget name="waiwai.Left" size="0.158000 0.194941"/>
+        <ImageTarget name="waiwai.Back" size="0.295000 0.194995"/>
+        <MultiTarget name="waiwai">
+            <Part name="waiwai.Left" translation="-0.14749999344348907 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="waiwai.Right" translation="0.14749999344348907 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="waiwai.Front" translation="0 0 0.07900000363588333" rotation="AD: 1 0 0 0"/>
+            <Part name="waiwai.Back" translation="0 0 -0.07900000363588333" rotation="AD: 0 1 0 180"/>
+            <Part name="waiwai.Top" translation="0 0.09749999642372131 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="waiwai.Bottom" translation="0 -0.09749999642372131 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
